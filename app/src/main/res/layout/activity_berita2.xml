@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita2">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="373dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tittle2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="301dp"
+        android:layout_height="190dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/berita3png" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="366dp"
+        android:layout_height="571dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text=" Liputan6.com, Purwokerto - Top 3 berita hari ini, Ade Irma Nasution tewas saat pasukan Cakrabirawa menyatroni rumahnya untuk menjemput paksa sang ayah, Jenderal Nasution, pada 1 Juni 1965.  Sulemi yang kini berusia 77 tahun menjadi saksi hidup saat punggung Ade Irma bersimbah darah akibat terkena peluru. Dia tergabung menjadi salah satu anggota pasukan yang bertugas menjemput para jenderal kala itu.Saat masuk ke rumah Nasution, mereka mencari ke beberapa kamar. Melihat pasukan Cakrabirawa, Nasution mengunci pintu. Pintu dibuka paksa, tapi tidak menemukan sang jenderal.    Rentetan senjata kemudian terdengar. Sulemi memastikan bahwa pemegang senjata bren adalah Kopral Sarjo. Di sana dia melihat Ade Irma tengan digendong sang ibu dengan punggung yang berlumuran darah.  Kala itu dia tak berpikir bahwa Ade Irma Nasution tertembak kala Sumarjo dan Hargiono menembak gagang pintu.  Sementara itu, dampak dari erupsi Gunung Soputan di Sulawesi Utara, kini juga ikut dirasakan warga Manado. Paparan debu seperti rintik hujan dikeluhkan oleh sejumlah warga setempat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</android.support.constraint.ConstraintLayout>

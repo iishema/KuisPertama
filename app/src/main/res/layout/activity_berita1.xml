@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="218dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tittle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="236dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/berita2png" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="365dp"
+        android:layout_height="244dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text='Liputan6.com, Jakarta Bencana gempa dan tsunami yang terjadi di Palu dan Donggala, Sulawesi Tengah menimbulkan duka mendalam bagi Tanah Air. Korban meninggal dunia akibat bencana tersebut diperkirakan sudah lebih dari 1300 orang.Selain jalanan rusak, gempa juga menyebabkan longsornya tanah serta kerusakan parah pada infrastruktur bangunan serta rumah. Namun di samping kisah pilu dampak dari bencana Palu-Donggala, masih keajaiban yang dialami oleh para korban selamat. Berikut sejumlah kisahnya. 1. Wanita selamat setelah tertimpa puing bangunan Wanita bernama Fitri ditemukan selamat di bawah puing Hotel Roa-Roa, Palu. Dia ditemukan Tim SAR di bawah tempat tidur yang tertimpa beton pada Minggu siang, atau tiga hari setelah gempa mengguncang. Namun karena akses yang sulit, maka Fitri baru bisa diselamatkan saat malam hari.  Fitri langsung dibawa ke rumah sakit. Dia hanya mengalami luka kecil. Hanya dibersihkan, obati dan bisa langsung pulang. 2. Selamatkan diri dari celah hotel Arif langsung menyelamatkan anaknya di kamar 215 Hotel Roa Roa, Palu, saat gempa mengguncang kota itu. Dia kembali ke hotel sekitar pukul 17.30 wita, setelah mengikuti technical meeting lomba.  Arif menceritakan, saat menuju kamar, gempa mulai lagi. Arif langsung menarik anaknya dan lari menuju tangga darurat. Namun tangga sudah runtuh. Arif langsung menuju lift. Tapi hotel langsung runtuh.  Akhirnya Arif melihat sebuah celah, karena hotel sudah patah. "Kebetulan di depan lift, ada celah karena hotelnya kan patah. Dari celah itu saya langsung keluar berdua dengan anak saya," kata Arif.  Arif mengaku mendengar teriakan minta tolong dari dalam hotel. Namun dia tidak sempat menolo  3. Balita ditemukan di parit dalam kondisi selamat Seorang balita laki-laki ditemukan di sebuah selokan. Diduga balita itu terpisah dari orangtuanya saat gempa mengguncang. Peristiwa memilukan itu diungkap Menteri Sosial Agus Gumiwang Kartasasmita. Nampak, balita malang itu terlelap dalam dekapan Agus.  Beruntung, kini balita yang mengalami luka-luka di kaki dan wajahnya itu tengah berkumpul dengan keluarganya. Demikian diungkap Mensos Agus Gumiwang dalam akun instagram pribadinya @agusgumiwangk.  "Teman-teman sekalian Alhamdulillah dan Puji Tuhan, bayi lucu ini sudah bisa berkumpul kembali dengan keluarganya, orangtuanya sudah ditemukan dan hidup '
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+</android.support.constraint.ConstraintLayout>
